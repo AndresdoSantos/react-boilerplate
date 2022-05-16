@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    font-family: 'Roboto Mono';
+    box-sizing: border-box;
+  }
+}
+
+@layer components {
+  .title {
+    font-size: 32px;
+  }
+}
